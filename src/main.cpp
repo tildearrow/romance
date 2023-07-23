@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <unistd.h>
 #include "audio/jack.h"
 
@@ -35,8 +34,11 @@ int main(int argc, char** argv) {
   }
   printf("running!\n");
 
-  while (true) {
-    usleep(50000);
-  }
+  usleep(500000);
+  usleep(500000);
+  usleep(500000);
+  usleep(500000);
+
+  audio.quit();
   return 0;
 }

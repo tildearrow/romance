@@ -1,7 +1,4 @@
-#include <stddef.h>
-#include <string>
-
-typedef std::string String;
+#include "../sharedDefs.h"
 
 struct SampleRateChangeEvent {
   double rate;
